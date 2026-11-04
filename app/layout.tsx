@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     "Top repositories trending right now — switch between daily, weekly, and monthly windows.",
 };
 
+/** Wraps every route in the shared document shell and page metadata. */
 export default function RootLayout({
   children,
 }: Readonly<{
